@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9F12BFDD"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F12BFDD"
+        android:gravity="center"
+        android:text="САНКТ-ПЕТЕРБУРГ"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F12BFDD"
+        android:gravity="center"
+        android:text="МОСКВА"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="МАНАВГАТ"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="СУС"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F12BFDD"
+        android:gravity="center"
+        android:text="ВАНКУВЕР"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F12BFDD"
+        android:gravity="center"
+        android:text="КАЛГАРИ"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="МОНРЕАЛЬ"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="САН-ФРАНЦИСКО"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F12BFDD"
+        android:gravity="center"
+        android:text="ДЕЛЬТА"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F12BFDD"
+        android:gravity="center"
+        android:text="КРАСНОДАР"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="СОЧИ"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="МИНСК"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F12BFDD"
+        android:gravity="center"
+        android:text="КРАСНОЯРСК"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F12BFDD"
+        android:gravity="center"
+        android:text="НОРИЛЬСК"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="СТАВРОПОЛЬ"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
