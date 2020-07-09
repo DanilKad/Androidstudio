@@ -112,42 +112,6 @@
         android:textSize="36sp"
         android:textStyle="italic" />
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="МИНСК"
-        android:textSize="36sp"
-        android:textStyle="italic" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#9F12BFDD"
-        android:gravity="center"
-        android:text="КРАСНОЯРСК"
-        android:textSize="36sp"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#9F12BFDD"
-        android:gravity="center"
-        android:text="НОРИЛЬСК"
-        android:textSize="36sp"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="СТАВРОПОЛЬ"
-        android:textSize="36sp"
-        android:textStyle="italic" />
 
 
 </LinearLayout>

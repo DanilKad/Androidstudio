@@ -17,16 +17,20 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/minimal_wallpaper_hd_for_phone_005" />
+        android:src="@drawable/morning"
+        android:scaleType="centerCrop"/>
+
+
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="Санкт-Петербург "
         android:textColor="#F8F8F8"
-        android:textSize="36sp"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2" />
@@ -37,13 +41,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="Легкий ветер "
+        android:background="@android:color/holo_blue_light"
         android:textColor="#FFFFFF"
         android:textDirection="firstStrongRtl"
-        android:textSize="30sp"
+        android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textMain" />
 
     <TextView
         android:id="@+id/textView3"
@@ -51,12 +56,26 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
         android:text="+26 °C"
+        android:background="@android:color/holo_blue_light"
         android:textColor="#FFFFFF"
-        android:textSize="36sp"
+        android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:text="Выбрать город"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginTop="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+      />
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -67,7 +86,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"/>
+            android:orientation="vertical" />
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
